@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em Javascript</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/Javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dc7684a651.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <main id="main">
+        <header id="header">
+            <h1>Calculadora</h1><p class="description">Feita em HTML, CSS e JavaScript.</p>
+        </header>
+
+        <div class="calculator-form">
+            <div class="conj-input">
+            <input type="number" id="elemUm" placeholder="Digite um número..." required>
+            <input type="number" id="elemDois" placeholder="Digite um número..."required>
+            </div>
+
+            <div class="conj-buttons">
+            <button onclick="mySum()">Somar</button>
+            <button onclick="mySub()">Subtrair</button>
+            <button onclick="myProd()">Multiplicar</button>
+            <button onclick="myDivi()">Dividir</button>
+            </div>
+
+            <div class="conj-res">
+            <h3>Resultado:</h3>
+            <p id="campoRes"><i>O resultado aparecerá aqui.</i></p>
+            <a href="calculadora.html"><i class="fas fa-redo-alt"></i> Limpar</a>
+            </div>
+        </div>
+
+        <footer id="footer">
+            Design e código por <a href="https://github.com/akarinaa">Karina Angelim</a>.
+        </footer>
+
+    </main>
+
+</body>
+</html>
